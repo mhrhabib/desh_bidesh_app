@@ -1,5 +1,9 @@
 import 'package:desh_bidesh_app/Screens/all_countries_screens.dart';
+import 'package:desh_bidesh_app/animation/counter_animator.dart';
 import 'package:flutter/material.dart';
+
+import 'animation/animated_main.dart';
+import 'animation/hero_animation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.pink,
       ),
       debugShowCheckedModeBanner: false,
-      home: AllCountriesScreen(),
+      home: AnimatedMain(),
     );
   }
 }
